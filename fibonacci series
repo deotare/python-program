@@ -1,0 +1,15 @@
+number=int(input("enter the number till where u want fabonacci series:"))
+i=0
+first value=0
+second value=1
+ while(i<number):
+     if(i<=1):
+         next value=i
+    else:
+        next=first value+second value
+        first value=second value
+        second value=next value
+     print(next value)
+    i=i+1
+         
+       
