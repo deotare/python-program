@@ -1,0 +1,9 @@
+a="acropolis is my college"
+x=a.split()
+length=len(x[0])
+word=x[0]
+for i in x:
+    if length<len(i):
+        length=len(i)
+        word=i
+print("String with max length is:",word)
